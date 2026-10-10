@@ -1,0 +1,16 @@
+/dist/
+/build/
+__pycache__/
+*.pyc
+*.apk
+*.jks
+*.keystore
+*.pem
+*.key
+.env
+.env.*
+secrets/
+*.log
+local.properties
+.idea/
+.vscode/

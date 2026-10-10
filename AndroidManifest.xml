@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eu.kanade.tachiyomi.animeextension.pt.tomatobr"
+    android:versionCode="4" android:versionName="14.4">
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="34" />
+    <uses-feature android:name="tachiyomi.animeextension" android:required="false" />
+    <application android:allowBackup="false" android:label="Aniyomi: Tomato BR" android:icon="@drawable/source_icon">
+        <meta-data android:name="tachiyomi.animeextension.class" android:value=".TomatoBR" />
+        <meta-data android:name="tachiyomi.animeextension.nsfw" android:value="0" />
+    </application>
+</manifest>
